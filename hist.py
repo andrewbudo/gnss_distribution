@@ -82,7 +82,7 @@ def main():
     plt.plot(n, h, 'r.')
     plt.xlabel('north')
     plt.ylabel('height')
-    #plt.xlim(250, 450)
+    plt.xlim(0.60, 0.63)
     #plt.ylim(199.0, 204.5)
 
     plt.subplot(2, 3, 3)
@@ -112,7 +112,7 @@ def main():
     
     # Save the plot with incrementing number
     plot_number = 0  # You might want to manage this externally
-    plt.savefig(f'./img/image{plot_number}.png')
+    plt.savefig(f'./img/image{28092023}.png')
     plt.close()
     print(plot_number + 1)
 
