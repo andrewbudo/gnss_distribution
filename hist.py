@@ -112,7 +112,7 @@ def main():
     
     # Save the plot with incrementing number
     plot_number = 0  # You might want to manage this externally
-    plt.savefig(f'./img/image{plot_number}.png')
+    plt.savefig(f'./img/image24042023.png')
     plt.close()
     print(plot_number + 1)
 
